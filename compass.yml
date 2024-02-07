@@ -1,0 +1,23 @@
+name: helloworld
+id: 'ari:cloud:compass:b47f082b-4a77-4594-ad8c-0e191dae4937:component/7a3845b6-32c4-46f3-bdaa-0e79feb95da7/0d7d056b-ea87-4fd4-bc83-c75196fdc039'
+description: null
+configVersion: 1
+typeId: SERVICE
+ownerId: null
+fields:
+  tier: 4
+links:
+  - name: ''
+    type: REPOSITORY
+    url: 'https://github.com/aron2028123/springBoot'
+  - name: ''
+    type: PROJECT
+    url: 'https://github.com/aron2028123/springBoot'
+relationships:
+  DEPENDS_ON:
+    - 'ari:cloud:compass:b47f082b-4a77-4594-ad8c-0e191dae4937:component/7a3845b6-32c4-46f3-bdaa-0e79feb95da7/056b9179-e6ac-4188-b123-fec10883308f'
+labels: null
+customFields: null
+
+# 详细了解如何设置 compass.yml 的格式：
+# https://go.atlassian.com/compass-yml-format
